@@ -1,0 +1,41 @@
+body {
+	background-color: #FDD232;
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+h1 {
+	font-family: 'Play', sans-serif;
+	color: #FFE481;
+	text-shadow: 0 0 2px #FFFFFF;
+	/*text-transform: uppercase;*/
+	text-align: center;
+	background-color: rgba(44, 97, 166, 0.5);
+	padding: 2% 3%;
+	border: 2px solid #0A3873;
+	border-radius: 20px;
+}
+
+.lBox {
+	display: flex;
+	flex-flow: column;
+	height: 200px;
+	margin: 20% 30% 0% 30%;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.btn-primary {
+	color: #FFDB58;
+	background-color: #2C61A6;
+	border-radius: 15px;
+	border-color: #0A3873;
+}
+
+.btn-primary:hover {
+	color: #FFE481;
+	background-color: #4065A8;
+}
